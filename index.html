@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo:Manage Your Day With Todo</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./Dist/output.css"/>
+    <link rel="stylesheet" href="./input.css"/>
+
+    <!-- Bootstrap Icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
 </head>
 <body>
+    
+    <!-- Header Section Starts Here -->
+        <div class="w-full h-[100px] bg-white text-center p-3 font-bold">
+            <h1 class="text-5xl text-purple-600 my-2">Todo</h1>
+            <h3 class="text-lg text-slate-400">Manage Your Day With Todo</h3>
+        </div>
+    <!-- Header Section Ends Here -->
         
+    <!--  Hero Section Start Here -->
+    <div class="w-full flex flex-col items-center">
+        <div class="w-4/5 h-12 md:w-3/5 flex items-center justify-center border-2 my-3 rounded-lg px-1">   
+            <input type="text" placeholder="Create a Todo" class="border-none rounded-lg px-1 w-4/5 capitalize outline-none" id="todoText"/>
+            <button class="w-1/5 h-10 border-none p-2 bg-purple-600 rounded-lg font-bold text-white " id="addTodo">Add</button>
+        </div>
+        <div class="w-full md:w-3/5 bg-slate-300 rounded-lg p-2">
+             
+              <h2 class="text-center text-xl font-bold">Your Tasks</h2>
+              <ul class="w-full list-none text-black text-justify p-2" id="todoItems">
+                 <!-- Todo List is Here -->
+              </ul> 
+        </div>
+    </div>
+    <!-- Hero Section Ends Here -->
+
 </body>
+<!-- Js File Link -->
+<script src="./script.js">
+</script>
 </html>
