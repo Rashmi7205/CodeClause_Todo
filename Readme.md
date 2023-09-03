@@ -1,9 +1,9 @@
-# CodeClause Todo
+# CodeClause Todo✅
 
 **CodeClause Todo** is a simple web-based Todo list application that allows you to manage your tasks and stay organized. You can add, edit, delete, and mark tasks as completed.
 
 
-## Features
+## Features👍
 
 - Add tasks with titles and optional descriptions.
 - Edit task details.
@@ -13,9 +13,9 @@
 - Clear all completed tasks with one click.
 - Responsive design for a seamless experience on various devices.
 
-## Live Demo
+## Live Demo🔥
 
-You can try out the live demo of the CodeClause Todo app [here](https://rashmi7205.github.io/CodeClause_Todo/).
+You can try out the live demo of the CodeClause Todo app [Todo Live🙌](https://rashmi7205.github.io/CodeClause_Todo/).
 
 ## Getting Started
 
@@ -30,3 +30,5 @@ To run this project locally or make modifications, follow these steps:
 Using tailwindcss for the better Mobile friendly Approach.
 Steps To configure tailwind Css 
 [View Instructions](https://tailwindcss.com/docs/installation)
+
+⭐️ **If you find this project helpful, please consider giving it a star on [GitHub](https://github.com/Rashmi7205/CodeClause_Todo). It's a small gesture that means a lot to us!** ⭐️
