@@ -3,7 +3,7 @@
 // Function to Print all the todo List items
 const getTodoList = ()=>{
     // getting the todolist from local storage
-    const todoList = localStorage.getItem('todoList')||[];
+    const todoList = localStorage.getItem('todoList')||'[]';
   
     // if todolist is empty 
     if(!todoList){
@@ -37,10 +37,10 @@ const getTodoList = ()=>{
 
     todoItemList.innerHTML="";
     
-    list.forEach(listItem=> {
-        todoItemList.innerHTML+=listItem;
-    });
-   
+    // list.forEach(listItem=> {
+    //     todoItemList.innerHTML+=listItem;
+    // });
+    todoItemList.innerHTML = list.join('');
 }
 // initialy calling the function to print the todo list on the dom
 getTodoList();
@@ -76,7 +76,7 @@ const deleteTask = (id)=>{
 const updateTodo= (id)=>{
     // id :Current - Index
 // getting the todolist from local storage
-const todoList = localStorage.getItem('todoList');
+const todoList = localStorage.getItem('todoList')||'[]';
 const listItems = JSON.parse(todoList);
 
 const todoText = document.getElementById('todoText').value = listItems[id].todoText;
@@ -92,7 +92,7 @@ const completeTask = (ele,id)=>{
      // ele : current element in which the user clicked.
 
     // getting the todolist from local storage
-    const todoList = localStorage.getItem('todoList')||[];
+    const todoList = localStorage.getItem('todoList')||'[]';
     const  listItems= JSON.parse(todoList);
   
     //If the task is not completed 
@@ -120,7 +120,7 @@ document.getElementById('addTodo').addEventListener('click',()=>{
         alert('Empty Todo Cannot be saved');
     }
     //get the todolist
-    const todoList = localStorage.getItem('todoList')||[];
+    const todoList = localStorage.getItem('todoList')||'[]';
     
     //todo list is empty  > push the new Todo
     if(!todoList.length){
