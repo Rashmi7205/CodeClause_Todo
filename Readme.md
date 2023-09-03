@@ -2,7 +2,6 @@
 
 **CodeClause Todo** is a simple web-based Todo list application that allows you to manage your tasks and stay organized. You can add, edit, delete, and mark tasks as completed.
 
-![Screenshot]("C:\Users\Rashmi\Pictures\Screenshots\Screenshot 2023-09-03 113703.png")
 
 ## Features
 
